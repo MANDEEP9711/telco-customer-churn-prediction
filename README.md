@@ -16,3 +16,22 @@ Our goal is to build a machine learning model that can:
 -> Find the main reasons behind customer churn.
 -> Identify customers who have a high chance of leaving.
 -> Help the company take action to keep those customers
+
+
+customer-churn-project/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   └── 04_modeling.ipynb
+├── src/
+│   ├── preprocessing.py
+│   ├── train.py
+│   └── predict.py
+├── models/
+├── sql/
+├── requirements.txt
+└── README.md
