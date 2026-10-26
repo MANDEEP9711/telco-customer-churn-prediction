@@ -21,7 +21,6 @@ SELECT
     SUM(Churn IS NULL) AS missing_churn
 FROM customers;
 
-
 -- Check tenure range
 SELECT
     MIN(tenure) AS minimum_tenure,
