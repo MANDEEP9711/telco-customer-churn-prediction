@@ -50,3 +50,16 @@ customer-churn-project/
 ├── requirements.txt
 
 └── README.md
+
+
+### PCA Model Comparison
+
+Applied PCA to reduce feature dimensionality and evaluated its impact on Logistic Regression performance.
+
+**Key Findings:**
+- Accuracy improved from 80% to 81%.
+- Churn-class precision increased from 64% to 67%.
+- Churn-class recall remained unchanged at 54%.
+- Churn-class F1-score improved from 0.58 to 0.59.
+
+**Conclusion:** PCA provided a modest improvement in overall model performance and churn-class precision. However, recall remained unchanged, indicating that further optimization is needed to identify more customers likely to churn.
